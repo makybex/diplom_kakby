@@ -175,3 +175,45 @@
         text-decoration: none;
         padding-top: 90px;
     }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container3 .c3_content_head form {
+        width: auto;
+        float: left;
+        margin-left: 30px;
+    }
+    
+    .container3 .c3_content_head input {
+        width: 250px;
+        height: 42px;
+        padding-left: 15px;
+        border-radius: 42px;
+        border: 2px solid #324b4e;
+        background: #F9F0DA;
+        outline: none;
+        position: relative;
+        transition: .3s linear;
+    }
+    
+    .container3 .c3_content_head input:focus {
+        width: 300px;
+    }
+    
+    .container3 .c3_content_head button {
+        width: 42px;
+        height: 42px;
+        background: none;
+        border: none;
+        position: absolute;
+        top: -2px;
+        right: 0;
+    }
+    
+    .container3 .c3_content_head button:before {
+        content: "\f002";
+        font-family: FontAwesome;
+        color: #324b4e;
+    }
