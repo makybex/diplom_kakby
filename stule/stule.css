@@ -344,6 +344,22 @@
                                                               /* transition: .3s linear; */
                                                           }
                                                           
+                                                          .container3 .c3_content_head input {
+                                                              background-image: url('../png/c3search.png');
+                                                              background-repeat: no-repeat;
+                                                              /*Убираем повтор изображения*/
+                                                              background-position: 4px;
+                                                              /*Позиционируем*/
+                                                              padding-left: 20px;
+                                                              /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+                                                              font-size: 13px;
+                                                              /*размер шрифта*/
+                                                          }
+                                                          
+                                                          .container3 .c3_content_head input::placeholder {
+                                                              color: red;
+                                                          }
+                                                          
                                                           .c3_content_head .left3 {
                                                               display: flex;
                                                               justify-content: space-between;
@@ -392,14 +408,44 @@
                                                               max-height: 100%;
                                                           }
                                                           
+                                                          .container3 .c3_p2 .c3_itemc31_hover {
+                                                              display: none;
+                                                          }
+                                                          
+                                                          .container3 .c3_p2 .itemc31:hover .c3_itemc31_hover {
+                                                              display: block;
+                                                              margin-top: -44.5%;
+                                                              height: 100%;
+                                                          }
+                                                          
                                                           .container3 .c3_p2 .itemc32 img {
                                                               max-width: 100%;
                                                               max-height: 100%;
                                                           }
                                                           
+                                                          .container3 .c3_p2 .c3_itemc32_hover {
+                                                              display: none;
+                                                          }
+                                                          
+                                                          .container3 .c3_p2 .itemc32:hover .c3_itemc32_hover {
+                                                              display: block;
+                                                              margin-top: -55%;
+                                                              height: 100%;
+                                                          }
+                                                          
                                                           .container3 .c3_p2 .itemc33 img {
                                                               max-width: 100%;
                                                               max-height: 100%;
+                                                          }
+                                                          
+                                                          .container3 .c3_p2 .c3_itemc33_hover {
+                                                              display: none;
+                                                          }
+                                                          
+                                                          .container3 .c3_p2 .itemc33:hover .c3_itemc33_hover {
+                                                              display: block;
+                                                              margin-top: -75%;
+                                                              height: 100%;
                                                           }
                                                           
                                                           .container3 .c3_p2 .itemc33 {
@@ -412,17 +458,26 @@
                                                               /* max-height: 100%; */
                                                           }
                                                           
-                                                          .container4 .c3_head {
+                                                          .container4 .c4_head {
                                                               text-align: center;
+                                                              padding: 75px;
                                                           }
                                                           
                                                           .container4 .c4_left {
                                                               background: #ffffa6;
+                                                              padding: 0;
+                                                          }
+                                                          
+                                                          .container4 .c4_left .c4_left_head1 {
+                                                              width: 100%;
                                                           }
                                                           
                                                           .container4 .c4_left input {
-                                                              width: 600px;
+                                                              width: 90%;
                                                               height: 75px;
+                                                              padding-left: 13px;
+                                                              padding-top: 13px;
+                                                              border: 2px solid #d5d57d;
                                                           }
                                                           
                                                           .container4 .c4_left .c4_2in {
@@ -439,12 +494,16 @@
                                                           
                                                           .container4 .c4_left .c4_2in_3str {
                                                               background: #f5e99e;
-                                                              color: #d8cb7d;
                                                               padding: 10px 15px;
                                                               /* display: flex;
                                                               justify-content: end; */
                                                               width: 200px;
-                                                              border-radius: 8px;
+                                                              border-radius: 0 0 8px 8px;
+                                                          }
+                                                          
+                                                          .container4 .c4_left p {
+                                                              color: #d8cb7d;
+                                                              padding: 0;
                                                           }
                                                           
                                                           .container4 .c4_left .c4_add {
@@ -452,4 +511,25 @@
                                                               flex-direction: column;
                                                               width: 85%;
                                                               align-items: flex-end;
+                                                          }
+                                                          
+                                                          .container4 .c4_left .c4_add hr {
+                                                              background: #d8cb7d;
+                                                              background-color: #f5e99e;
+                                                              color: #f5e99e;
+                                                              height: 1px;
+                                                              width: 80%;
+                                                              padding: 0;
+                                                              margin: 0 auto;
+                                                          }
+                                                          
+                                                          .container4 .c4_left .c4_left_button {
+                                                              background: #fbf6a3;
+                                                              border: 2px dotted #d8cb7d;
+                                                              border-radius: ;
+                                                              width: 50%;
+                                                              height: 15%;
+                                                              padding: 30px 60px;
+                                                              margin: 0 auto;
+                                                              text-align: center;
                                                           }
