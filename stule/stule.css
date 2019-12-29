@@ -533,3 +533,10 @@
                                                               margin: 0 auto;
                                                               text-align: center;
                                                           }
+                                                          
+                                                          .container5 {
+                                                              background-image: url('../png/c5_bg_test.png');
+                                                              background-repeat: no-repeat;
+                                                              background-size: cover;
+                                                              max-height: 100%;
+                                                          }
