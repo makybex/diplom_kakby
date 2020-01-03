@@ -1,670 +1,701 @@
-                                                              html,
-                                                              body,
-                                                              div,
-                                                              span,
-                                                              applet,
-                                                              object,
-                                                              iframe,
-                                                              h1,
-                                                              h2,
-                                                              h3,
-                                                              h4,
-                                                              h5,
-                                                              h6,
-                                                              p,
-                                                              blockquote,
-                                                              pre,
-                                                              a,
-                                                              abbr,
-                                                              acronym,
-                                                              address,
-                                                              big,
-                                                              cite,
-                                                              code,
-                                                              del,
-                                                              dfn,
-                                                              em,
-                                                              img,
-                                                              ins,
-                                                              kbd,
-                                                              q,
-                                                              s,
-                                                              samp,
-                                                              small,
-                                                              strike,
-                                                              strong,
-                                                              sub,
-                                                              sup,
-                                                              tt,
-                                                              var,
-                                                              b,
-                                                              u,
-                                                              i,
-                                                              center,
-                                                              dl,
-                                                              dt,
-                                                              dd,
-                                                              ol,
-                                                              ul,
-                                                              li,
-                                                              fieldset,
-                                                              form,
-                                                              label,
-                                                              legend,
-                                                              table,
-                                                              caption,
-                                                              tbody,
-                                                              tfoot,
-                                                              thead,
-                                                              tr,
-                                                              th,
-                                                              td,
-                                                              article,
-                                                              aside,
-                                                              canvas,
-                                                              details,
-                                                              embed,
-                                                              figure,
-                                                              figcaption,
-                                                              footer,
-                                                              header,
-                                                              hgroup,
-                                                              menu,
-                                                              nav,
-                                                              output,
-                                                              ruby,
-                                                              section,
-                                                              summary,
-                                                              time,
-                                                              mark,
-                                                              audio,
-                                                              video {
-                                                                  margin: 0;
-                                                                  padding: 0;
-                                                                  border: 0;
-                                                                  font-size: 100%;
-                                                                  font: inherit;
-                                                                  vertical-align: baseline;
-                                                              }
-                                                              /* HTML5 display-role reset for older browsers */
-                                                              
-                                                              article,
-                                                              aside,
-                                                              details,
-                                                              figcaption,
-                                                              figure,
-                                                              footer,
-                                                              header,
-                                                              hgroup,
-                                                              menu,
-                                                              nav,
-                                                              section {
-                                                                  display: block;
-                                                              }
-                                                              
-                                                              body {
-                                                                  line-height: 1;
-                                                              }
-                                                              
-                                                              ol,
-                                                              ul {
-                                                                  list-style: none;
-                                                              }
-                                                              
-                                                              blockquote,
-                                                              q {
-                                                                  quotes: none;
-                                                              }
-                                                              
-                                                              blockquote:before,
-                                                              blockquote:after,
-                                                              q:before,
-                                                              q:after {
-                                                                  content: '';
-                                                                  content: none;
-                                                              }
-                                                              
-                                                              table {
-                                                                  border-collapse: collapse;
-                                                                  border-spacing: 0;
-                                                              }
-                                                              
-                                                              .wrapper {
-                                                                  max-width: 1440px;
-                                                                  width: 100%;
-                                                                  margin: 0 auto;
-                                                              }
-                                                              
-                                                              .center {
-                                                                  max-width: 1170px;
-                                                                  width: 100%;
-                                                                  margin: 0 auto;
-                                                              }
-                                                              
-                                                              .container1 {
-                                                                  background-image: url('./../png/bg1.png');
-                                                                  background-repeat: no-repeat;
-                                                                  background-size: cover;
-                                                                  max-height: 100%;
-                                                              }
-                                                              
-                                                              .container1 .titl1 {
-                                                                  color: #fff;
-                                                              }
-                                                              
-                                                              .container1 .titl1 h1 {
-                                                                  font-family: 'Montserrat', sans-serif;
-                                                                  font-size: 25.18px;
-                                                              }
-                                                              
-                                                              .container1 .titl1 span {
-                                                                  font-family: 'Montserrat', sans-serif;
-                                                                  font-size: 25.18px;
-                                                                  font-weight: bold;
-                                                              }
-                                                              
-                                                              .container1 .header_menu {
-                                                                  display: flex;
-                                                                  justify-content: space-between;
-                                                                  padding: 10px;
-                                                                  /* ? */
-                                                                  top: 40px;
-                                                              }
-                                                              
-                                                              .container1 ul {
-                                                                  display: flex;
-                                                                  padding-bottom: 150px;
-                                                                  align-items: center;
-                                                              }
-                                                              
-                                                              .container1 li {
-                                                                  font-family: 'Lato', sans-serif;
-                                                                  font-size: 14px;
-                                                                  display: flex;
-                                                                  align-items: center;
-                                                                  text-align: center;
-                                                                  padding: 15px;
-                                                              }
-                                                              
-                                                              .container1 .menu li a {
-                                                                  text-decoration: none;
-                                                                  color: #fff;
-                                                              }
-                                                              
-                                                              .container1 .menu #menu11 {
-                                                                  display: flex;
-                                                                  justify-content: space-between;
-                                                                  border: 0;
-                                                                  align-items: center;
-                                                              }
-                                                              
-                                                              .container1 .menu li:hover {
-                                                                  font-family: 'Lato', sans-serif;
-                                                                  font-weight: bold;
-                                                                  border: 3px solid #fff;
-                                                                  border-radius: 20px;
-                                                              }
-                                                              
-                                                              .container1 .content1 {
-                                                                  text-align: center;
-                                                              }
-                                                              
-                                                              .container1 .content1 h2 {
-                                                                  font-family: 'chunkfive', sans-serif;
-                                                                  color: #ffffff;
-                                                                  font-size: 80.08px;
-                                                              }
-                                                              
-                                                              .container1 .content1 h2 span {
-                                                                  color: #01a2a6;
-                                                              }
-                                                              
-                                                              .container1 .content1 p {
-                                                                  font-family: 'Lato', sans-serif;
-                                                                  font-size: 18px;
-                                                                  color: #ffffff;
-                                                                  padding: 10px;
-                                                              }
-                                                              
-                                                              .container1 .content1 .p1 {
-                                                                  font-family: 'Lato', sans-serif;
-                                                                  font-weight: bold;
-                                                                  font-size: 16px;
-                                                                  color: #10273d;
-                                                                  text-decoration: none;
-                                                                  outline: none;
-                                                                  padding-bottom: 160px;
-                                                              }
-                                                              
-                                                              .container1 .button1 {
-                                                                  background-color: #ffffa6;
-                                                                  border-radius: 36px;
-                                                                  padding: 30px 60px;
-                                                                  color: black;
-                                                                  text-decoration: none;
-                                                              }
-                                                              
-                                                              .container1 .button1 a {
-                                                                  margin-top: 50px;
-                                                                  color: black;
-                                                                  text-decoration: none;
-                                                              }
-                                                              
-                                                              .container2 .c2 {
-                                                                  display: flex;
-                                                                  justify-content: center;
-                                                                  padding: 10px;
-                                                              }
-                                                              
-                                                              .container2 .c2_section {
-                                                                  display: flex;
-                                                                  align-items: center;
-                                                                  width: 50%;
-                                                                  justify-content: center;
-                                                              }
-                                                              
-                                                              .container2 .c2_section h2 {
-                                                                  font-family: 'chunkfive', sans-serif;
-                                                                  font-size: 60px;
-                                                                  color: #29d9c2;
-                                                              }
-                                                              
-                                                              .container2 .c2_section h2 span {
-                                                                  color: #01a2a6;
-                                                              }
-                                                              
-                                                              .container2 .c2_section p {
-                                                                  font-family: 'lato', sans-serif;
-                                                                  font-size: 16px;
-                                                                  color: #777777;
-                                                              }
-                                                              
-                                                              .container3 {
-                                                                  background: #f2fefe;
-                                                              }
-                                                              
-                                                              .container3 .c3_header h2 {
-                                                                  font-family: 'chunkfive', sans-serif;
-                                                                  font-size: 67px;
-                                                                  color: #29d9c2;
-                                                                  padding: 70px 100px;
-                                                              }
-                                                              
-                                                              .container3 .c3_header h2 span {
-                                                                  color: #01a2a6;
-                                                              }
-                                                              
-                                                              .container3 .c3_header p {
-                                                                  font-family: 'lato', sans-serif;
-                                                                  font-size: 16px;
-                                                                  color: #777777;
-                                                                  padding: 0px 100px;
-                                                              }
-                                                              
-                                                              .container3 .header_c3 {
-                                                                  display: flex;
-                                                                  justify-content: space-between;
-                                                              }
-                                                              
-                                                              .container3 .c3_header {
-                                                                  width: 80%;
-                                                              }
-                                                              
-                                                              .container3 .c3_header_right a {
-                                                                  display: flex;
-                                                                  color: #c1c1c1;
-                                                                  text-decoration: none;
-                                                                  padding-top: 90px;
-                                                              }
-                                                              
-                                                              .container3 .c3_content_head {
-                                                                  background-color: #f2fefe;
-                                                                  align-items: center;
-                                                                  padding-top: 70px;
-                                                                  padding-bottom: 20px;
-                                                                  display: flex;
-                                                                  justify-content: space-between;
-                                                              }
-                                                              
-                                                              .container3 .c3_content_head form {
-                                                                  width: auto;
-                                                                  display: inline-block;
-                                                                  margin-left: 30px;
-                                                              }
-                                                              
-                                                              .container3 .c3_content_head input {
-                                                                  width: 250px;
-                                                                  height: 42px;
-                                                                  padding-left: 15px;
-                                                                  border-radius: 42px;
-                                                                  border: 2px solid #c1c1c1;
-                                                                  background: #fff;
-                                                                  outline: none;
-                                                                  /*  position: relative; */
-                                                                  /* transition: .3s linear; */
-                                                              }
-                                                              
-                                                              .container3 .c3_content_head input {
-                                                                  background-image: url('../png/c3search.png');
-                                                                  background-repeat: no-repeat;
-                                                                  /*Убираем повтор изображения*/
-                                                                  background-position: 4px;
-                                                                  /*Позиционируем*/
-                                                                  padding-left: 20px;
-                                                                  /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
-                                                                  font-size: 13px;
-                                                                  /*размер шрифта*/
-                                                              }
-                                                              
-                                                              .container3 .c3_content_head input::placeholder {
-                                                                  color: red;
-                                                              }
-                                                              
-                                                              .c3_content_head .left3 {
-                                                                  display: flex;
-                                                                  justify-content: space-between;
-                                                                  font-family: 'lato', sans-serif;
-                                                                  font-size: 16px;
-                                                              }
-                                                              
-                                                              .c3_content_head .left3 h3 {
-                                                                  font-weight: bold;
-                                                                  color: #777777;
-                                                                  padding: 0px 25px;
-                                                              }
-                                                              
-                                                              .c3_content_head .left3 p {
-                                                                  color: #aeaeae;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc31 {
-                                                                  /* background-image: url('../png/c3p21.png');
+                                                                  html,
+                                                                  body,
+                                                                  div,
+                                                                  span,
+                                                                  applet,
+                                                                  object,
+                                                                  iframe,
+                                                                  h1,
+                                                                  h2,
+                                                                  h3,
+                                                                  h4,
+                                                                  h5,
+                                                                  h6,
+                                                                  p,
+                                                                  blockquote,
+                                                                  pre,
+                                                                  a,
+                                                                  abbr,
+                                                                  acronym,
+                                                                  address,
+                                                                  big,
+                                                                  cite,
+                                                                  code,
+                                                                  del,
+                                                                  dfn,
+                                                                  em,
+                                                                  img,
+                                                                  ins,
+                                                                  kbd,
+                                                                  q,
+                                                                  s,
+                                                                  samp,
+                                                                  small,
+                                                                  strike,
+                                                                  strong,
+                                                                  sub,
+                                                                  sup,
+                                                                  tt,
+                                                                  var,
+                                                                  b,
+                                                                  u,
+                                                                  i,
+                                                                  center,
+                                                                  dl,
+                                                                  dt,
+                                                                  dd,
+                                                                  ol,
+                                                                  ul,
+                                                                  li,
+                                                                  fieldset,
+                                                                  form,
+                                                                  label,
+                                                                  legend,
+                                                                  table,
+                                                                  caption,
+                                                                  tbody,
+                                                                  tfoot,
+                                                                  thead,
+                                                                  tr,
+                                                                  th,
+                                                                  td,
+                                                                  article,
+                                                                  aside,
+                                                                  canvas,
+                                                                  details,
+                                                                  embed,
+                                                                  figure,
+                                                                  figcaption,
+                                                                  footer,
+                                                                  header,
+                                                                  hgroup,
+                                                                  menu,
+                                                                  nav,
+                                                                  output,
+                                                                  ruby,
+                                                                  section,
+                                                                  summary,
+                                                                  time,
+                                                                  mark,
+                                                                  audio,
+                                                                  video {
+                                                                      margin: 0;
+                                                                      padding: 0;
+                                                                      border: 0;
+                                                                      font-size: 100%;
+                                                                      font: inherit;
+                                                                      vertical-align: baseline;
+                                                                  }
+                                                                  /* HTML5 display-role reset for older browsers */
+                                                                  
+                                                                  article,
+                                                                  aside,
+                                                                  details,
+                                                                  figcaption,
+                                                                  figure,
+                                                                  footer,
+                                                                  header,
+                                                                  hgroup,
+                                                                  menu,
+                                                                  nav,
+                                                                  section {
+                                                                      display: block;
+                                                                  }
+                                                                  
+                                                                  body {
+                                                                      line-height: 1;
+                                                                  }
+                                                                  
+                                                                  ol,
+                                                                  ul {
+                                                                      list-style: none;
+                                                                  }
+                                                                  
+                                                                  blockquote,
+                                                                  q {
+                                                                      quotes: none;
+                                                                  }
+                                                                  
+                                                                  blockquote:before,
+                                                                  blockquote:after,
+                                                                  q:before,
+                                                                  q:after {
+                                                                      content: '';
+                                                                      content: none;
+                                                                  }
+                                                                  
+                                                                  table {
+                                                                      border-collapse: collapse;
+                                                                      border-spacing: 0;
+                                                                  }
+                                                                  
+                                                                  .wrapper {
+                                                                      max-width: 1440px;
+                                                                      width: 100%;
+                                                                      margin: 0 auto;
+                                                                  }
+                                                                  
+                                                                  .center {
+                                                                      max-width: 1170px;
+                                                                      width: 100%;
+                                                                      margin: 0 auto;
+                                                                  }
+                                                                  
+                                                                  .container1 {
+                                                                      background-image: url('./../png/bg1.png');
+                                                                      background-repeat: no-repeat;
+                                                                      background-size: cover;
+                                                                      max-height: 100%;
+                                                                  }
+                                                                  
+                                                                  .container1 .titl1 {
+                                                                      color: #fff;
+                                                                  }
+                                                                  
+                                                                  .container1 .titl1 h1 {
+                                                                      font-family: 'Montserrat', sans-serif;
+                                                                      font-size: 25.18px;
+                                                                  }
+                                                                  
+                                                                  .container1 .titl1 span {
+                                                                      font-family: 'Montserrat', sans-serif;
+                                                                      font-size: 25.18px;
+                                                                      font-weight: bold;
+                                                                  }
+                                                                  
+                                                                  .container1 .header_menu {
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                      padding: 10px;
+                                                                      /* ? */
+                                                                      top: 40px;
+                                                                  }
+                                                                  
+                                                                  .container1 ul {
+                                                                      display: flex;
+                                                                      padding-bottom: 150px;
+                                                                      align-items: center;
+                                                                  }
+                                                                  
+                                                                  .container1 li {
+                                                                      font-family: 'Lato', sans-serif;
+                                                                      font-size: 14px;
+                                                                      display: flex;
+                                                                      align-items: center;
+                                                                      text-align: center;
+                                                                      padding: 15px;
+                                                                  }
+                                                                  
+                                                                  .container1 .menu li a {
+                                                                      text-decoration: none;
+                                                                      color: #fff;
+                                                                  }
+                                                                  
+                                                                  .container1 .menu #menu11 {
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                      border: 0;
+                                                                      align-items: center;
+                                                                  }
+                                                                  
+                                                                  .container1 .menu li:hover {
+                                                                      font-family: 'Lato', sans-serif;
+                                                                      font-weight: bold;
+                                                                      border: 3px solid #fff;
+                                                                      border-radius: 20px;
+                                                                  }
+                                                                  
+                                                                  .container1 .content1 {
+                                                                      text-align: center;
+                                                                  }
+                                                                  
+                                                                  .container1 .content1 h2 {
+                                                                      font-family: 'chunkfive', sans-serif;
+                                                                      color: #ffffff;
+                                                                      font-size: 80.08px;
+                                                                  }
+                                                                  
+                                                                  .container1 .content1 h2 span {
+                                                                      color: #01a2a6;
+                                                                  }
+                                                                  
+                                                                  .container1 .content1 p {
+                                                                      font-family: 'Lato', sans-serif;
+                                                                      font-size: 18px;
+                                                                      color: #ffffff;
+                                                                      padding: 10px;
+                                                                  }
+                                                                  
+                                                                  .container1 .content1 .p1 {
+                                                                      font-family: 'Lato', sans-serif;
+                                                                      font-weight: bold;
+                                                                      font-size: 16px;
+                                                                      color: #10273d;
+                                                                      text-decoration: none;
+                                                                      outline: none;
+                                                                      padding-bottom: 160px;
+                                                                  }
+                                                                  
+                                                                  .container1 .button1 {
+                                                                      background-color: #ffffa6;
+                                                                      border-radius: 36px;
+                                                                      padding: 30px 60px;
+                                                                      color: black;
+                                                                      text-decoration: none;
+                                                                  }
+                                                                  
+                                                                  .container1 .button1 a {
+                                                                      margin-top: 50px;
+                                                                      color: black;
+                                                                      text-decoration: none;
+                                                                  }
+                                                                  
+                                                                  .container2 .c2 {
+                                                                      display: flex;
+                                                                      justify-content: center;
+                                                                      padding: 10px;
+                                                                  }
+                                                                  
+                                                                  .container2 .c2_section {
+                                                                      display: flex;
+                                                                      align-items: center;
+                                                                      width: 50%;
+                                                                      justify-content: center;
+                                                                  }
+                                                                  
+                                                                  .container2 .c2_section h2 {
+                                                                      font-family: 'chunkfive', sans-serif;
+                                                                      font-size: 60px;
+                                                                      color: #29d9c2;
+                                                                  }
+                                                                  
+                                                                  .container2 .c2_section h2 span {
+                                                                      color: #01a2a6;
+                                                                  }
+                                                                  
+                                                                  .container2 .c2_section p {
+                                                                      font-family: 'lato', sans-serif;
+                                                                      font-size: 16px;
+                                                                      color: #777777;
+                                                                  }
+                                                                  
+                                                                  .container3 {
+                                                                      background: #f2fefe;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_header h2 {
+                                                                      font-family: 'chunkfive', sans-serif;
+                                                                      font-size: 67px;
+                                                                      color: #29d9c2;
+                                                                      padding: 70px 100px;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_header h2 span {
+                                                                      color: #01a2a6;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_header p {
+                                                                      font-family: 'lato', sans-serif;
+                                                                      font-size: 16px;
+                                                                      color: #777777;
+                                                                      padding: 0px 100px;
+                                                                  }
+                                                                  
+                                                                  .container3 .header_c3 {
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_header {
+                                                                      width: 80%;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_header_right a {
+                                                                      display: flex;
+                                                                      color: #c1c1c1;
+                                                                      text-decoration: none;
+                                                                      padding-top: 90px;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_content_head {
+                                                                      background-color: #f2fefe;
+                                                                      align-items: center;
+                                                                      padding-top: 70px;
+                                                                      padding-bottom: 20px;
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_content_head form {
+                                                                      width: auto;
+                                                                      display: inline-block;
+                                                                      margin-left: 30px;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_content_head input {
+                                                                      width: 250px;
+                                                                      height: 42px;
+                                                                      padding-left: 15px;
+                                                                      border-radius: 42px;
+                                                                      border: 2px solid #c1c1c1;
+                                                                      background: #fff;
+                                                                      outline: none;
+                                                                      /*  position: relative; */
+                                                                      /* transition: .3s linear; */
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_content_head input {
+                                                                      background-image: url('../png/c3search.png');
+                                                                      background-repeat: no-repeat;
+                                                                      /*Убираем повтор изображения*/
+                                                                      background-position: 4px;
+                                                                      /*Позиционируем*/
+                                                                      padding-left: 20px;
+                                                                      /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+                                                                      font-size: 13px;
+                                                                      /*размер шрифта*/
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_content_head input::placeholder {
+                                                                      color: red;
+                                                                  }
+                                                                  
+                                                                  .c3_content_head .left3 {
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                      font-family: 'lato', sans-serif;
+                                                                      font-size: 16px;
+                                                                  }
+                                                                  
+                                                                  .c3_content_head .left3 h3 {
+                                                                      font-weight: bold;
+                                                                      color: #777777;
+                                                                      padding: 0px 25px;
+                                                                  }
+                                                                  
+                                                                  .c3_content_head .left3 p {
+                                                                      color: #aeaeae;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc31 {
+                                                                      /* background-image: url('../png/c3p21.png');
                                       background-repeat: no-repeat;
                                       background-size: cover;
                                       max-height: 100%; */
-                                                                  /*  background-image: url('./../png/c3p21.png');
+                                                                      /*  background-image: url('./../png/c3p21.png');
                                                   background-repeat: no-repeat;
                                                   background-size: cover; */
-                                                                  /* max-height: 100%; */
-                                                                  /*   background-color: red;
+                                                                      /* max-height: 100%; */
+                                                                      /*   background-color: red;
                                                   width: 1170px;
                                                   height: 520px; */
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc32 {
-                                                                  /*   background-color: green; */
-                                                                  /* width: 670px; */
-                                                                  /* height: 360px; */
-                                                                  /* background-image: url('./../png/c3p22.png');
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc32 {
+                                                                      /*   background-color: green; */
+                                                                      /* width: 670px; */
+                                                                      /* height: 360px; */
+                                                                      /* background-image: url('./../png/c3p22.png');
                                               background-repeat: no-repeat;
                                               background-size: 95%;
                                               max-height: 100%; */
-                                                                  /* padding-top: 50px;
+                                                                      /* padding-top: 50px;
                                               margin-left: 30px; */
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc31 img {
-                                                                  max-width: 100%;
-                                                                  max-height: 100%;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .c3_itemc31_hover {
-                                                                  display: none;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc31:hover .c3_itemc31_hover {
-                                                                  display: block;
-                                                                  margin-top: -44.5%;
-                                                                  height: 100%;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc32 img {
-                                                                  max-width: 100%;
-                                                                  max-height: 100%;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .c3_itemc32_hover {
-                                                                  display: none;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc32:hover .c3_itemc32_hover {
-                                                                  display: block;
-                                                                  margin-top: -55%;
-                                                                  height: 100%;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc33 img {
-                                                                  max-width: 100%;
-                                                                  max-height: 100%;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .c3_itemc33_hover {
-                                                                  display: none;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc33:hover .c3_itemc33_hover {
-                                                                  display: block;
-                                                                  margin-top: -75%;
-                                                                  height: 100%;
-                                                              }
-                                                              
-                                                              .container3 .c3_p2 .itemc33 {
-                                                                  /* background-color: yellow; */
-                                                                  /* width: 470px; */
-                                                                  /*  height: 360px; */
-                                                                  /* background-image: url('./../png/c3p23.png');
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc31 img {
+                                                                      max-width: 100%;
+                                                                      max-height: 100%;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .c3_itemc31_hover {
+                                                                      display: none;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc31:hover .c3_itemc31_hover {
+                                                                      display: block;
+                                                                      margin-top: -44.5%;
+                                                                      height: 100%;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc32 img {
+                                                                      max-width: 100%;
+                                                                      max-height: 100%;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .c3_itemc32_hover {
+                                                                      display: none;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc32:hover .c3_itemc32_hover {
+                                                                      display: block;
+                                                                      margin-top: -55%;
+                                                                      height: 100%;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc33 img {
+                                                                      max-width: 100%;
+                                                                      max-height: 100%;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .c3_itemc33_hover {
+                                                                      display: none;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc33:hover .c3_itemc33_hover {
+                                                                      display: block;
+                                                                      margin-top: -75%;
+                                                                      height: 100%;
+                                                                  }
+                                                                  
+                                                                  .container3 .c3_p2 .itemc33 {
+                                                                      /* background-color: yellow; */
+                                                                      /* width: 470px; */
+                                                                      /*  height: 360px; */
+                                                                      /* background-image: url('./../png/c3p23.png');
                                               background-repeat: no-repeat;
                                               background-size: 95%; */
-                                                                  /* max-height: 100%; */
-                                                              }
-                                                              
-                                                              .container4 .c4_head {
-                                                                  text-align: center;
-                                                              }
-                                                              
-                                                              .container4 .c4_head h2 {
-                                                                  color: #29d9c2;
-                                                                  font-size: 67px;
-                                                                  font-family: 'chunkfive', sans-serif;
-                                                                  padding: 75px;
-                                                              }
-                                                              
-                                                              .container4 .c4_head h2 span {
-                                                                  color: #01a2a6;
-                                                              }
-                                                              
-                                                              .container4 .c4_head p {
-                                                                  color: #777777;
-                                                                  font-size: 16px;
-                                                                  font-family: 'Lato', sans-serif;
-                                                                  padding-bottom: 145px;
-                                                              }
-                                                              
-                                                              .container4 .c4_left {
-                                                                  background: #ffffa6;
-                                                                  padding: 0px;
-                                                                  border-radius: 8px;
-                                                                  margin-right: 20px;
-                                                              }
-                                                              
-                                                              .container4 .c4_left .c4_left_head1 {
-                                                                  width: 100%;
-                                                              }
-                                                              
-                                                              .container4 .c4_left input {
-                                                                  width: 90%;
-                                                                  height: 75px;
-                                                                  padding-left: 13px;
-                                                                  padding-top: 13px;
-                                                                  border: 2px solid #d5d57d;
-                                                                  border-radius: 8px;
-                                                              }
-                                                              
-                                                              .container4 .c4_left .c4_2in_1 {
-                                                                  background: #f5e99e;
-                                                                  padding: 20px 30px;
-                                                                  width: 95%;
-                                                              }
-                                                              
-                                                              .container4 .c4_left .c4_2in {
-                                                                  background: #f5e99e;
-                                                                  padding: 20px 30px;
-                                                                  border-radius: 0 0 0 8px;
-                                                                  width: 95%;
-                                                              }
-                                                              
-                                                              .container4 .c4_left .c4_left_data_flex {
-                                                                  display: flex;
-                                                                  justify-content: space-between;
-                                                                  width: 80%;
-                                                                  padding: 25px;
-                                                              }
-                                                              
-                                                              .container4 .c4_left .c4_2in_3str {
-                                                                  background: #f5e99e;
-                                                                  padding: 10px 15px;
-                                                                  margin-bottom: 15px;
-                                                                  width: 200px;
-                                                                  border-radius: 0 0 8px 8px;
-                                                              }
-                                                              
-                                                              .container4 .c4_left p {
-                                                                  color: #d8cb7d;
-                                                                  padding: 0;
-                                                              }
-                                                              
-                                                              .container4 .c4_left .c4_add {
-                                                                  display: flex;
-                                                                  flex-direction: column;
-                                                                  width: 85%;
-                                                                  align-items: flex-end;
-                                                              }
-                                                              
-                                                              .container4 .c4_left .c4_add hr {
-                                                                  background: #d8cb7d;
-                                                                  background-color: #f5e99e;
-                                                                  color: #f5e99e;
-                                                                  height: 1px;
-                                                                  width: 80%;
-                                                                  padding: 0;
-                                                                  margin: 0 auto;
-                                                              }
-                                                              
-                                                              .container4 .c4_left .c4_left_button {
-                                                                  background: #fbf6a3;
-                                                                  border: 2px dotted #d8cb7d;
-                                                                  border-radius: 8px;
-                                                                  width: 85%;
-                                                                  padding: 30px 60px;
-                                                                  margin: 0 auto;
-                                                                  text-align: center;
-                                                                  margin-bottom: 5%;
-                                                              }
-                                                              
-                                                              .container4 .c4_right {
-                                                                  text-align: center;
-                                                              }
-                                                              
-                                                              .container4 .c4_r_head_search {
-                                                                  display: flex;
-                                                                  justify-content: space-between;
-                                                              }
-                                                              
-                                                              .container4 .c4_right_item {
-                                                                  border: 2px solid #e8e8e8;
-                                                                  align-items: center;
-                                                                  padding: 10px;
-                                                                  border-radius: 8px;
-                                                                  margin: 9px;
-                                                              }
-                                                              
-                                                              .container4 .c4_right_item_l {
-                                                                  text-align: left;
-                                                              }
-                                                              
-                                                              .container4 .c4_right_item_l h2 {
-                                                                  color: #626262;
-                                                                  font-family: 'lato', sans-serif;
-                                                                  font-size: 24px;
-                                                                  padding-bottom: 18px;
-                                                              }
-                                                              
-                                                              .container4 .c4_right_item_l p {
-                                                                  color: #b9b9b9;
-                                                                  font-family: 'lato', sans-serif;
-                                                                  font-size: 14px;
-                                                              }
-                                                              
-                                                              .container4 .c4_right_item_l p span {
-                                                                  color: #74d6cb;
-                                                                  font-family: 'lato', sans-serif;
-                                                                  font-size: 14px;
-                                                                  font-weight: 700;
-                                                              }
-                                                              
-                                                              .container4 .c4_right_item_r {
-                                                                  text-align: right;
-                                                              }
-                                                              
-                                                              .container4 .c4_bottom {
-                                                                  margin-left: 30%;
-                                                              }
-                                                              
-                                                              .container4 .c4_bottom .p1 {
-                                                                  display: inline-block;
-                                                                  margin: 25px;
-                                                                  align-items: center;
-                                                                  text-align: center;
-                                                              }
-                                                              
-                                                              .container4 .c4_bottom .p1 .c4_button a {
-                                                                  text-decoration: none;
-                                                                  background-color: #c3f37f;
-                                                                  color: #fff;
-                                                                  border-radius: 28px;
-                                                                  padding: 20px 12px;
-                                                              }
-                                                              
-                                                              .container4 .c4_bottom .p1 .c4_button1 a {
-                                                                  text-decoration: none;
-                                                                  background-color: #3ddbc7;
-                                                                  color: #fff;
-                                                                  border-radius: 28px;
-                                                                  padding: 20px 12px;
-                                                                  align-items: center;
-                                                                  text-align: center;
-                                                              }
-                                                              
-                                                              .container5 {
-                                                                  background-image: url('../png/c5_bg_test.png');
-                                                                  background-repeat: no-repeat;
-                                                                  background-size: cover;
-                                                                  max-height: 100%;
-                                                              }
-                                                              
-                                                              .container5 .c5_head h2 {
-                                                                  padding-top: 90px;
-                                                                  margin-bottom: 110px;
-                                                                  color: #fff;
-                                                                  text-align: center;
-                                                                  font-size: 67px;
-                                                                  font-family: 'ChunkFive', sans-serif;
-                                                              }
-                                                              
-                                                              .c5_bot_inp {
-                                                                  margin-top: 10px;
-                                                                  height: 100px;
-                                                              }
-                                                              
-                                                              .c5_RIGHT_button a {
-                                                                  text-decoration: none;
-                                                                  background-color: #c3f37f;
-                                                                  color: #fff;
-                                                                  border-radius: 28px;
-                                                                  padding: 20px 12px;
-                                                                  font-size: 15px;
-                                                                  font-weight: 900;
-                                                              }
-                                                              /* .c5_RIGHT_button {
-                                                                  margin: 25px;
-                                                              } */
+                                                                      /* max-height: 100%; */
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_head {
+                                                                      text-align: center;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_head h2 {
+                                                                      color: #29d9c2;
+                                                                      font-size: 67px;
+                                                                      font-family: 'chunkfive', sans-serif;
+                                                                      padding: 75px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_head h2 span {
+                                                                      color: #01a2a6;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_head p {
+                                                                      color: #777777;
+                                                                      font-size: 16px;
+                                                                      font-family: 'Lato', sans-serif;
+                                                                      padding-bottom: 145px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left {
+                                                                      background: #ffffa6;
+                                                                      padding: 0px;
+                                                                      border-radius: 8px;
+                                                                      margin-right: 20px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left .c4_left_head1 {
+                                                                      width: 100%;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left input {
+                                                                      width: 90%;
+                                                                      height: 75px;
+                                                                      padding-left: 13px;
+                                                                      padding-top: 13px;
+                                                                      border: 2px solid #d5d57d;
+                                                                      border-radius: 8px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left .c4_2in_1 {
+                                                                      background: #f5e99e;
+                                                                      padding: 20px 30px;
+                                                                      width: 95%;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left .c4_2in {
+                                                                      background: #f5e99e;
+                                                                      padding: 20px 30px;
+                                                                      border-radius: 0 0 0 8px;
+                                                                      width: 95%;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left .c4_left_data_flex {
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                      width: 80%;
+                                                                      padding: 25px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left .c4_2in_3str {
+                                                                      background: #f5e99e;
+                                                                      padding: 10px 15px;
+                                                                      margin-bottom: 15px;
+                                                                      width: 200px;
+                                                                      border-radius: 0 0 8px 8px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left p {
+                                                                      color: #d8cb7d;
+                                                                      padding: 0;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left .c4_add {
+                                                                      display: flex;
+                                                                      flex-direction: column;
+                                                                      width: 85%;
+                                                                      align-items: flex-end;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left .c4_add hr {
+                                                                      background: #d8cb7d;
+                                                                      background-color: #f5e99e;
+                                                                      color: #f5e99e;
+                                                                      height: 1px;
+                                                                      width: 80%;
+                                                                      padding: 0;
+                                                                      margin: 0 auto;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_left .c4_left_button {
+                                                                      background: #fbf6a3;
+                                                                      border: 2px dotted #d8cb7d;
+                                                                      border-radius: 8px;
+                                                                      width: 85%;
+                                                                      padding: 30px 60px;
+                                                                      margin: 0 auto;
+                                                                      text-align: center;
+                                                                      margin-bottom: 5%;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_right {
+                                                                      text-align: center;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_r_head_search {
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_right_item {
+                                                                      border: 2px solid #e8e8e8;
+                                                                      align-items: center;
+                                                                      padding: 10px;
+                                                                      border-radius: 8px;
+                                                                      margin: 9px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_right_item_l {
+                                                                      text-align: left;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_right_item_l h2 {
+                                                                      color: #626262;
+                                                                      font-family: 'lato', sans-serif;
+                                                                      font-size: 24px;
+                                                                      padding-bottom: 18px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_right_item_l p {
+                                                                      color: #b9b9b9;
+                                                                      font-family: 'lato', sans-serif;
+                                                                      font-size: 14px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_right_item_l p span {
+                                                                      color: #74d6cb;
+                                                                      font-family: 'lato', sans-serif;
+                                                                      font-size: 14px;
+                                                                      font-weight: 700;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_right_item_r {
+                                                                      text-align: right;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_bottom {
+                                                                      margin-left: 30%;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_bottom .p1 {
+                                                                      display: inline-block;
+                                                                      margin: 25px;
+                                                                      align-items: center;
+                                                                      text-align: center;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_bottom .p1 .c4_button a {
+                                                                      text-decoration: none;
+                                                                      background-color: #c3f37f;
+                                                                      color: #fff;
+                                                                      border-radius: 28px;
+                                                                      padding: 20px 12px;
+                                                                  }
+                                                                  
+                                                                  .container4 .c4_bottom .p1 .c4_button1 a {
+                                                                      text-decoration: none;
+                                                                      background-color: #3ddbc7;
+                                                                      color: #fff;
+                                                                      border-radius: 28px;
+                                                                      padding: 20px 12px;
+                                                                      align-items: center;
+                                                                      text-align: center;
+                                                                  }
+                                                                  
+                                                                  .container5 {
+                                                                      background-image: url('../png/c5bg.png');
+                                                                      background-repeat: no-repeat;
+                                                                      background-size: cover;
+                                                                      max-height: 100%;
+                                                                      color: #fff;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_head h2 {
+                                                                      padding-top: 90px;
+                                                                      margin-bottom: 110px;
+                                                                      color: #fff;
+                                                                      text-align: center;
+                                                                      font-size: 67px;
+                                                                      font-family: 'ChunkFive', sans-serif;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_bot_inp {
+                                                                      margin-top: 10px;
+                                                                      height: 100px;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_RIGHT_button a {
+                                                                      text-decoration: none;
+                                                                      background-color: #c3f37f;
+                                                                      color: #fff;
+                                                                      border-radius: 28px;
+                                                                      padding: 20px 12px;
+                                                                      font-size: 15px;
+                                                                      font-weight: 900;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_RIGHT_button {
+                                                                      margin-top: 20px;
+                                                                      margin-bottom: 25px;
+                                                                      margin-left: 50%;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_right .c5_right_li {
+                                                                      font-size: 44px;
+                                                                      padding-bottom: 60px;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_right li {
+                                                                      font-size: 12px;
+                                                                      font-family: 'Lato', sans-serif;
+                                                                      padding: 7px;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_right li a {
+                                                                      text-decoration: none;
+                                                                      color: #fff772;
+                                                                      padding-left: 18px;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_right li img {
+                                                                      padding-right: 5px;
+                                                                  }
+                                                                  
+                                                                  .container5 .c5_center {
+                                                                      align-items: center;
+                                                                      margin-top: 50px;
+                                                                      margin-left: 5%;
+                                                                  }
