@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="stule/stule.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
 </head>
 
 <body>
@@ -24,7 +25,8 @@
                             <h1>Yok<span>Ngalam</span></h1>
                         </li>
                     </ul>
-                    <ul class="menu">
+
+                    <ul class="menu" id="menu1">
                         <li><a href="#">home</a></li>
                         <li><a href="#">Destination</a></li>
                         <li><a href="#">Ittinary</a></li>
@@ -34,7 +36,12 @@
                             <a href="#"><img src="./png/c1user1.png"><img class="c1img2" src="./png/c1user2.png"></a>
                         </li>
                     </ul>
+                    <span class="burger" id="burger">
+                         <i></i>
+                         <i></i>
+                         <i></i>
 
+                </span>
 
                 </div>
                 <div class="content1">
@@ -109,7 +116,7 @@
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="itemc32 col-xl-7 col-lg-7 .col-md-7 col-sm-7">
+                        <div class="itemc32 col-xl-7 col-lg-7 .col-md-7 col-sm-7 col-12">
                             <img src="./png/c3p22.png" alt="">
                             <div class="c3_itemc32_hover">
                                 <img src="./png/c32_hover.png">
@@ -138,7 +145,7 @@
                     <p>Simply drag and drop what you want to visit, and voila we make a ittinery and schedule for your vacation.<br> have a great trip !</p>
                 </div>
                 <div class="с4_2koloni row justify-content-center">
-                    <div class="row justify-content-center col-xl-7">
+                    <div class="row justify-content-center col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="c4_left row justify-content-center col-xl-12">
                             <img class="c4_left_head1" src="./png/c4_left_head1.png">
                             <div class="c4_left_data_flex ">
@@ -153,8 +160,12 @@
 
                             <input type="text" placeholder="Batu City    10.00 - 15.00">
                             <div class="c4_add">
-                                <p class="c4_2in_1">Enjoy Malang while Listening Music</p>
-
+                                <p class="c4_desc">
+                                    <span class="c4_2in_1">Enjoy Malang while Listening Music
+                                        
+                                    </span>
+                                    <img src="./png/c4_linia.png">
+                                </p>
                                 <p class="c4_2in">Gonna Eat BAKSO</p>
                                 <p class=" c4_2in_3str ">add sub destination</p>
                             </div>
@@ -166,7 +177,7 @@
                         </div>
                     </div>
 
-                    <div class="c4_right row justify-content-center col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <div class="c4_right row justify-content-center col-xl-5 col-lg-6 col-md-12 col-sm-12">
                         <div class=" justify-content-center col-xl-12">
                             <div class="c4_r_h_t">
                                 <p>List of Destination</p>
@@ -250,17 +261,17 @@
             </div>
             <div class="c5_content row justify-content-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
-                <div class="c5_left row justify-content-center  col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                <div class="c5_left row justify-content-center  col-xl-5 col-lg-5 col-md-12 col-sm-12">
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Your Email">
                         </div>
                         <div class="c5_inp_cent form-row ">
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-lg-6 col-6">
                                 <input type="text" class="form-control" placeholder="Company">
 
                             </div>
-                            <div class="col-xl-6">
+                            <div class="col-xl-6 col-lg-6 col-6">
                                 <input type="text " class="form-control" placeholder="Subject">
 
                             </div>
@@ -274,10 +285,10 @@
                     </p>
                 </div>
 
-                <div class="c5_center  align-items-center col-xl-1 ">
+                <div class="c5_center  align-items-center justify-content-center col-xl-1 col-lg-1 col-sm-12 col-12 ">
                     <p>OR</p>
                 </div>
-                <div class="c5_right row justify-content-center col-xl-5 col-lg-5 col-md-5 col-sm-12 ">
+                <div class="c5_right row justify-content-center col-xl-5 col-lg-4 col-md-12 col-sm-12 ">
                     <ul>
                         <li class="c5_right_li">You Can Find Us Here</li>
                         <li><img src="./png/c5_right_hous.png">Jl.Danau Bratan sekian nomer sekian, Sawojajar Malang<br>
@@ -293,28 +304,34 @@
 
         </section>
         <section class="container6">
-            <div class="row d-flex justify-content-around">
-                <div>
-                    <h2>Keep in Touch</h2>
-                    <p>We Will Give you latest information about Malang</p>
-                </div>
-                <div class="input-group   align-items-center col-xl-5 mb-5">
-                    <input type="text" class="form-control" placeholder="Type Email Here for Subscribe" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="./png/c6_button_right.png" alt=""></button>
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <div>
+                        <h2>Keep in Touch</h2>
+                        <p>We Will Give you latest information about Malang</p>
                     </div>
-                </div>
+                    <div class="input-group   align-items-center col-xl-5 mb-5">
+                        <input type="text" class="form-control" placeholder="Type Email Here for Subscribe" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="./png/c6_button_right.png" alt=""></button>
+                        </div>
+                    </div>
 
+                </div>
             </div>
 
 
         </section>
         <section class="container7">
             <div class="c7_head d-flex justify-content-around">
-                <div class="left">
+                <div class="left col-sm-5">
                     <p>Term & Condition • Policy • Privacy</p>
                 </div>
-                <div class="left">1</div>
+                <div class="c7_right_1  justify-content-center col-sm-5">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
             </div>
             <div class="c7_bot_copp d-flex justify-content-center">
                 <p>copyright@YokMalang. Allright Reserved. 2017</p>
@@ -335,9 +352,9 @@
 
 
 
+    <script src="./fontawesome/js/all.js"></script>
 
-
-
+    <script src="./stule/menu.js"></script>
 
 
 </body>
