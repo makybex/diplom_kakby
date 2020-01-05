@@ -198,6 +198,10 @@
                                                                                       align-items: center;
                                                                                   }
                                                                                   
+                                                                                  .container1 .menu #menu11 .c1img2 {
+                                                                                      padding-bottom: 25%;
+                                                                                  }
+                                                                                  
                                                                                   .container1 .menu li:hover {
                                                                                       font-family: 'Lato', sans-serif;
                                                                                       font-weight: bold;
@@ -357,7 +361,9 @@
                                                                                   }
                                                                                   
                                                                                   .container3 .c3_content_head input::placeholder {
-                                                                                      color: red;
+                                                                                      color: #b5b5b5;
+                                                                                      font-family: 'lato', sans-serif;
+                                                                                      font-size: 14px;
                                                                                   }
                                                                                   
                                                                                   .c3_content_head .left3 {
@@ -375,32 +381,6 @@
                                                                                   
                                                                                   .c3_content_head .left3 p {
                                                                                       color: #aeaeae;
-                                                                                  }
-                                                                                  
-                                                                                  .container3 .c3_p2 .itemc31 {
-                                                                                      /* background-image: url('../png/c3p21.png');
-                                      background-repeat: no-repeat;
-                                      background-size: cover;
-                                      max-height: 100%; */
-                                                                                      /*  background-image: url('./../png/c3p21.png');
-                                                  background-repeat: no-repeat;
-                                                  background-size: cover; */
-                                                                                      /* max-height: 100%; */
-                                                                                      /*   background-color: red;
-                                                  width: 1170px;
-                                                  height: 520px; */
-                                                                                  }
-                                                                                  
-                                                                                  .container3 .c3_p2 .itemc32 {
-                                                                                      /*   background-color: green; */
-                                                                                      /* width: 670px; */
-                                                                                      /* height: 360px; */
-                                                                                      /* background-image: url('./../png/c3p22.png');
-                                              background-repeat: no-repeat;
-                                              background-size: 95%;
-                                              max-height: 100%; */
-                                                                                      /* padding-top: 50px;
-                                              margin-left: 30px; */
                                                                                   }
                                                                                   
                                                                                   .container3 .c3_p2 .itemc31 img {
@@ -571,10 +551,9 @@
                                                                                       font-weight: 900;
                                                                                       color: #29d9c2;
                                                                                   }
-                                                                                  
-                                                                                  .container4 .c4_right .c4_r_h_cont {
+                                                                                  /* .container4 .c4_right .c4_r_h_cont {
                                                                                       display: inline;
-                                                                                  }
+                                                                                  } */
                                                                                   
                                                                                   .container4 .c4_right .c4_r_h_cont p {
                                                                                       font-family: 'lato', sans-serif;
@@ -789,4 +768,8 @@
                                                                                       color: #5d5c5c;
                                                                                       font-size: 12px;
                                                                                       font-family: 'Lato', sans-serif;
+                                                                                  }
+                                                                                  
+                                                                                  .c7_bot_copp {
+                                                                                      color: #919092;
                                                                                   }
