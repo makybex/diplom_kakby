@@ -814,14 +814,15 @@
                                                                                                   display: inline-block;
                                                                                                   widows: 30px;
                                                                                                   height: 30px;
-                                                                                                  background: #fff;
+                                                                                                  background: #29d9c2;
+                                                                                                  margin-left: -30%;
                                                                                               }
                                                                                               .burger i {
                                                                                                   display: block;
                                                                                                   height: 3px;
                                                                                                   width: 20px;
                                                                                                   margin: 4px;
-                                                                                                  background: #ff0036;
+                                                                                                  background: white;
                                                                                               }
                                                                                               .menu li {
                                                                                                   display: block;
