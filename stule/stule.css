@@ -326,8 +326,8 @@
                                                                                       align-items: center;
                                                                                       padding-top: 70px;
                                                                                       padding-bottom: 20px;
-                                                                                      display: flex;
-                                                                                      justify-content: space-between;
+                                                                                      /*  display: flex;
+                                                                                      justify-content: space-between; */
                                                                                   }
                                                                                   
                                                                                   .container3 .c3_content_head form {
